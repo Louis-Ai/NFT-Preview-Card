@@ -1,0 +1,59 @@
+@font-face 
+{
+    font-family: Outfit;
+    src: url(/font/Outfit-VariableFont_wght.ttf);
+}
+
+body 
+{
+    background-color: hsl(217, 54%, 11%);
+    font-family: Outfit;
+    font-size: 18px;
+}
+
+.light
+{
+    font-weight: 300;
+}
+
+.normal
+{
+    font-weight: 400;
+}
+
+.thick
+{
+    font-weight: 600;
+}
+
+
+.card 
+{ 
+    background-color: hsl(216, 50%, 16%);
+}
+
+.card-title
+{
+    color: white;
+}
+
+.creator-link 
+{
+    color: white;
+    text-decoration: none;
+}
+
+hr 
+{
+    background-color: hsl(215, 32%, 27%);
+}
+
+.crypto 
+{
+    color: hsl(178, 100%, 50%);
+}
+
+.time-left, .creator, .card-text 
+{
+    color: hsl(215, 51%, 70%);
+}
